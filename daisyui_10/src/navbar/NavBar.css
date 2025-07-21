@@ -1,0 +1,49 @@
+
+.small-icon {
+    margin: 10px;
+    transform: scale(.75);
+}
+
+.side-icon-summary {
+    padding: 6px 2px;
+}
+
+.side-icon {
+    transform: scale(.75);
+    margin: 0px;
+}
+
+details > ul {
+    z-index:1000;
+}
+
+.side-icon-summary > img {
+    pointer-events: none;
+}
+
+.divider {
+    margin: 0px;
+    padding: 0px 5px;
+    gap: 0px;
+    pointer-events: none;
+}
+
+.side-icon-summary::after {
+    content: none;
+}
+
+.navbar {
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    position: absolute;
+}
+
+.hamburger {
+    padding:0px;
+}
+
+
+.navbar-title {
+    padding:10px;
+}
